@@ -10,12 +10,11 @@ def IMC(peso, altura):
     
 
 def validacion(resultado):
-    if resultado >= 18.5 and resultado <= 24.9:
+    if resultado >= 18.5 and resultado <= 24.7:
         print("Persona saludable")
     elif resultado >= 25:
         print("Persona con sobrepeso")
-    elif resultado < 18.5:
-        print("Persona baja de peso")
+ 
 
 Peso = int(input("Ingrese su peso (kg): "))
 Altura = float(input("Ingrese su altura (m): "))
